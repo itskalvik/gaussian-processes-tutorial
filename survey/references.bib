@@ -1,8 +1,6 @@
 @article{WilsonHSX16,
-title = "Stochastic variational deep kernel learning",
-abstract = "Deep kernel learning combines the non-parametric flexibility of kernel methods with the inductive biases of deep learning architectures. We propose a novel deep kernel learning model and stochastic variational inference procedure which generalizes deep kernel learning approaches to enable classification, multi-task learning, additive covariance structures, and stochastic gradient training. Specifically, we apply additive base kernels to subsets of output features from deep neural architectures, and jointly learn the parameters of the base kernels and deep network through a Gaussian process marginal likelihood objective. Within this framework, we derive an efficient form of stochastic variational inference which leverages local kernel interpolation, inducing points, and structure exploiting algebra. We show improved performance over stand alone deep networks, SVMs, and state of the art scalable Gaussian processes on several classification benchmarks, including an airline delay dataset containing 6 million training points, CIFAR, and ImageNet.",
+title = "Stochastic {V}ariational {D}eep {K}ernel {L}earning",
 author = "Wilson, {Andrew Gordon} and Zhiting Hu and Ruslan Salakhutdinov and Xing, {Eric P.}",
-note = "Funding Information: We thank NSF IIS-1563887, ONR N000141410684, N000141310721, N000141512791, and ADeLAIDE FA8750-16C-0130-001 grants.; 30th Annual Conference on Neural Information Processing Systems, NIPS 2016 ; Conference date: 05-12-2016 Through 10-12-2016",
 year = "2016",
 language = "English (US)",
 pages = "2594--2602",
@@ -12,11 +10,11 @@ issn = "1049-5258",
 
 @inproceedings{SalimbeniD17,
 author = {Salimbeni, Hugh and Deisenroth, Marc},
-booktitle = {Advances in Neural Information Processing Systems},
+booktitle = {{A}dvances in {N}eural {I}nformation {P}rocessing {S}ystems},
 editor = {I. Guyon and U. V. Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
 pages = {},
 publisher = {Curran Associates, Inc.},
-title = {Doubly Stochastic Variational Inference for Deep Gaussian Processes},
+title = {{D}oubly {S}tochastic {V}ariational {I}nference for {D}eep {G}aussian {P}rocesses},
 url = {https://proceedings.neurips.cc/paper/2017/file/8208974663db80265e9bfe7b222dcb18-Paper.pdf},
 volume = {30},
 year = {2017}
@@ -24,7 +22,7 @@ year = {2017}
 
 
 @InProceedings{DamianouL13,
-title = 	 {Deep {G}aussian Processes},
+title = 	 {Deep {G}aussian {P}rocesses},
 author = 	 {Andreas Damianou and Neil D. Lawrence},
 booktitle = 	 {Proceedings of the Sixteenth International Conference on Artificial Intelligence and Statistics},
 pages = 	 {207--215},
@@ -35,13 +33,11 @@ series = 	 {Proceedings of Machine Learning Research},
 address = 	 {Scottsdale, Arizona, USA},
 month = 	 {29 Apr--01 May},
 publisher =    {PMLR},
-pdf = 	 {http://proceedings.mlr.press/v31/damianou13a.pdf},
 url = 	 {http://proceedings.mlr.press/v31/damianou13a.html},
-abstract = 	 {In this paper we introduce deep Gaussian process (GP) models. Deep GPs are a deep belief network based on Gaussian process mappings. The data is modeled as the output of a multivariate GP. The inputs to that Gaussian process are then governed by another GP. A single layer model is equivalent to a standard GP or the GP latent variable model (GP-LVM). We perform inference in the model by approximate variational marginalization. This results in a strict lower bound on the marginal likelihood of the model which we use for model selection (number of layers and nodes per layer). Deep belief networks are typically applied to relatively large data sets using stochastic gradient descent for optimization. Our fully Bayesian treatment allows for the application of deep models even when data is scarce. Model selection by our variational bound shows that a five layer hierarchy is justified even when modelling a digit data set containing only 150 examples.}
 }
 
 @InProceedings{TitsiasL10,
-title = 	 {Bayesian Gaussian Process Latent Variable Model},
+title = 	 {{B}ayesian {G}aussian {P}rocess {L}atent {V}ariable {M}odel},
 author = 	 {Michalis Titsias and Neil D. Lawrence},
 booktitle = 	 {Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics},
 pages = 	 {844--851},
@@ -52,13 +48,11 @@ series = 	 {Proceedings of Machine Learning Research},
 address = 	 {Chia Laguna Resort, Sardinia, Italy},
 month = 	 {13--15 May},
 publisher =    {JMLR Workshop and Conference Proceedings},
-pdf = 	 {http://proceedings.mlr.press/v9/titsias10a/titsias10a.pdf},
 url = 	 {http://proceedings.mlr.press/v9/titsias10a.html},
-abstract = 	 {We introduce a variational inference framework for training the Gaussian process latent variable model and thus performing Bayesian nonlinear dimensionality reduction. This method allows us to variationally integrate out the input variables of the Gaussian process and compute a lower bound on the exact marginal likelihood of the nonlinear latent variable model. The maximization of the variational lower bound provides a Bayesian training procedure that is robust to overfitting and can automatically select the dimensionality of the nonlinear latent space. We demonstrate our method on real world datasets. The focus in this paper is on dimensionality reduction problems, but the methodology is more general. For example, our algorithm is immediately applicable for training Gaussian process models in the presence of missing or uncertain inputs.}
 }
 
 @InProceedings{Titsias09,
-title = 	 {Variational Learning of Inducing Variables in Sparse Gaussian Processes},
+title = 	 {{V}ariational {L}earning of {I}nducing {V}ariables in {S}parse {G}aussian {P}rocesses},
 author = 	 {Michalis Titsias},
 booktitle = 	 {Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics},
 pages = 	 {567--574},
@@ -69,9 +63,7 @@ series = 	 {Proceedings of Machine Learning Research},
 address = 	 {Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA},
 month = 	 {16--18 Apr},
 publisher =    {PMLR},
-pdf = 	 {http://proceedings.mlr.press/v5/titsias09a/titsias09a.pdf},
 url = 	 {http://proceedings.mlr.press/v5/titsias09a.html},
-abstract = 	 {Sparse Gaussian process methods that use inducing variables require the selection of the inducing inputs and the kernel hyperparameters. We introduce a variational formulation for sparse approximations that jointly infers the inducing inputs and the kernel hyperparameters by maximizing a lower bound of the true log marginal likelihood. The key property of this formulation is that the inducing inputs  are defined to be variational parameters  which are selected by minimizing  the Kullback-Leibler divergence between  the variational distribution and the exact posterior distribution over the latent function values. We apply this technique to regression and we compare it with other approaches in the literature.}
 }
 
 @inproceedings{Lawrence04,
@@ -80,15 +72,15 @@ booktitle = {Advances in Neural Information Processing Systems},
 editor = {S. Thrun and L. Saul and B. Sch\"{o}lkopf},
 pages = {},
 publisher = {MIT Press},
-title = {Gaussian Process Latent Variable Models for Visualisation of High Dimensional Data},
+title = {{G}aussian {P}rocess {L}atent {V}ariable {M}odels for {V}isualisation of {H}igh {D}imensional {D}ata},
 url = {https://proceedings.neurips.cc/paper/2003/file/9657c1fffd38824e5ab0472e022e577e-Paper.pdf},
 volume = {16},
 year = {2004}
 }
 
 @article{Lawrence05,
-author  = {Neil Lawrence},
-title   = {Probabilistic Non-linear Principal Component Analysis with Gaussian Process Latent Variable Models},
+author = {Lawrence, Neil},
+title   = {{P}robabilistic {N}on-linear {P}rincipal {C}omponent {A}nalysis with {G}aussian {P}rocess {L}atent {V}ariable {M}odels},
 journal = {Journal of Machine Learning Research},
 year    = {2005},
 volume  = {6},
@@ -99,11 +91,10 @@ url     = {http://jmlr.org/papers/v6/lawrence05a.html}
 
 @inproceedings{HavasiLF18,
 author = {Havasi, Marton and Hern\'{a}ndez-Lobato, Jos\'{e} Miguel and Murillo-Fuentes, Juan Jos\'{e}},
-title = {Inference in Deep Gaussian Processes Using Stochastic Gradient Hamiltonian Monte Carlo},
+title = {{I}nference in {D}eep {G}aussian {P}rocesses {U}sing {S}tochastic {G}radient {H}amiltonian {M}onte {C}arlo},
 year = {2018},
 publisher = {Curran Associates Inc.},
 address = {Red Hook, NY, USA},
-abstract = {Deep Gaussian Processes (DGPs) are hierarchical generalizations of Gaussian Processes that combine well calibrated uncertainty estimates with the high flexibility of multilayer models. One of the biggest challenges with these models is that exact inference is intractable. The current state-of-the-art inference method, Variational Inference (VI), employs a Gaussian approximation to the posterior distribution. This can be a potentially poor unimodal approximation of the generally multimodal posterior. In this work, we provide evidence for the non-Gaussian nature of the posterior and we apply the Stochastic Gradient Hamiltonian Monte Carlo method to generate samples. To efficiently optimize the hyperparameters, we introduce the Moving Window MCEM algorithm. This results in significantly better predictions at a lower computational cost than its VI counterpart. Thus our method establishes a new state-of-the-art for inference in DGPs.},
 booktitle = {Proceedings of the 32nd International Conference on Neural Information Processing Systems},
 pages = {7517–7527},
 numpages = {11},
@@ -117,14 +108,14 @@ booktitle = {Advances in Neural Information Processing Systems},
 editor = {Y. Weiss and B. Sch\"{o}lkopf and J. Platt},
 pages = {},
 publisher = {MIT Press},
-title = {Sparse Gaussian Processes using Pseudo-inputs},
+title = {{S}parse {G}aussian {P}rocesses using {P}seudo-inputs},
 url = {https://proceedings.neurips.cc/paper/2005/file/4491777b1aa8b5b32c2e8666dbe1a495-Paper.pdf},
 volume = {18},
 year = {2006}
 }
 
 @incollection{CandelaRW07,
-title={Approximation methods for Gaussian process regression},
+title={{A}pproximation {M}ethods for {G}aussian {P}rocess {R}egression},
 author={Quinonero-Candela, Joaquin and Rasmussen, Carl Edward and Williams, Christopher KI},
 booktitle={Large-scale kernel machines},
 pages={203--223},
@@ -134,10 +125,9 @@ publisher={MIT Press}
 
 @inproceedings{Wilson15,
 author = {Wilson, Andrew Gordon and Nickisch, Hannes},
-title = {Kernel Interpolation for Scalable Structured Gaussian Processes (KISS-GP)},
+title = {{K}ernel {I}nterpolation for {S}calable {S}tructured {G}aussian {P}rocesses ({KISS-GP})},
 year = {2015},
 publisher = {JMLR.org},
-abstract = {We introduce a new structured kernel interpolation (SKI) framework, which generalises and unifies inducing point methods for scalable Gaussian processes (GPs). SKI methods produce kernel approximations for fast computations through kernel interpolation. The SKI framework clarifies how the quality of an inducing point approach depends on the number of inducing (aka interpolation) points, interpolation strategy, and GP covariance kernel. SKI also provides a mechanism to create new scalable kernel methods, through choosing different kernel interpolation strategies. Using SKI, with local cubic kernel interpolation, we introduce KISSGP, which is 1) more scalable than inducing point alternatives, 2) naturally enables Kronecker and Toeplitz algebra for substantial additional gains in scalability, without requiring any grid data, and 3) can be used for fast and expressive kernel learning. KISS-GP costs O(n) time and storage for GP inference. We evaluate KISS-GP for kernel matrix approximation, kernel learning, and natural sound modelling.},
 booktitle = {Proceedings of the 32nd International Conference on International Conference on Machine Learning - Volume 37},
 pages = {1775–1784},
 numpages = {10},
@@ -147,11 +137,10 @@ series = {ICML'15}
 
 @inproceedings{WilsonGNC14,
 author = {Wilson, Andrew Gordon and Gilboa, Elad and Nehorai, Arye and Cunningham, John P.},
-title = {Fast Kernel Learning for Multidimensional Pattern Extrapolation},
+title = {{F}ast {K}ernel {L}earning for {M}ultidimensional {P}attern {E}xtrapolation},
 year = {2014},
 publisher = {MIT Press},
 address = {Cambridge, MA, USA},
-abstract = {The ability to automatically discover patterns and perform extrapolation is an essential quality of intelligent systems. Kernel methods, such as Gaussian processes, have great potential for pattern extrapolation, since the kernel flexibly and interpretably controls the generalisation properties of these methods. However, automatically extrapolating large scale multidimensional patterns is in general difficult, and developing Gaussian process models for this purpose involves several challenges. A vast majority of kernels, and kernel learning methods, currently only succeed in smoothing and interpolation. This difficulty is compounded by the fact that Gaussian processes are typically only tractable for small datasets, and scaling an expressive kernel learning approach poses different challenges than scaling a standard Gaussian process model. One faces additional computational constraints, and the need to retain significant model structure for expressing the rich information available in a large dataset. In this paper, we propose a Gaussian process approach for large scale multidimensional pattern extrapolation. We recover sophisticated out of class kernels, perform texture extrapolation, inpainting, and video extrapolation, and long range forecasting of land surface temperatures, all on large multidimensional datasets, including a problem with 383,400 training points. The proposed method significantly outperforms alternative scalable and flexible Gaussian process methods, in speed and accuracy. Moreover, we show that a distinct combination of expressive kernels, a fully non-parametric representation, and scalable inference which exploits existing model structure, are critical for large scale multidimensional pattern extrapolation.},
 booktitle = {Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2},
 pages = {3626–3634},
 numpages = {9},
@@ -165,7 +154,7 @@ booktitle = {Advances in Neural Information Processing Systems},
 editor = {T. Leen and T. Dietterich and V. Tresp},
 pages = {},
 publisher = {MIT Press},
-title = {Using the Nystr\"{o}m Method to Speed Up Kernel Machines},
+title = {{U}sing the {N}ystr\"{o}m {M}ethod to {S}peed {U}p {K}ernel {M}achines},
 url = {https://proceedings.neurips.cc/paper/2000/file/19de10adbaa1b2ee13f77f679fa1483a-Paper.pdf},
 volume = {13},
 year = {2001}
@@ -173,11 +162,10 @@ year = {2001}
 
 @inproceedings{HensmanFL13,
 author = {Hensman, James and Fusi, Nicol\`{o} and Lawrence, Neil D.},
-title = {Gaussian Processes for Big Data},
+title = {{G}aussian {P}rocesses for {B}ig {D}ata},
 year = {2013},
 publisher = {AUAI Press},
 address = {Arlington, Virginia, USA},
-abstract = {We introduce stochastic variational inference for Gaussian process models. This enables the application of Gaussian process (GP) models to data sets containing millions of data points. We show how GPs can be variationally decomposed to depend on a set of globally relevant inducing variables which factorize the model in the necessary manner to perform variational inference. Our approach is readily extended to models with non-Gaussian likelihoods and latent variable models based around Gaussian processes. We demonstrate the approach on a simple toy problem and two real world data sets.},
 booktitle = {Proceedings of the Twenty-Ninth Conference on Uncertainty in Artificial Intelligence},
 pages = {282–290},
 numpages = {9},
@@ -186,8 +174,8 @@ series = {UAI'13}
 }
 
 @InProceedings{Lawrence07,
-title = 	 {Learning for Larger Datasets with the Gaussian Process Latent Variable Model},
-author = 	 {Neil D. Lawrence},
+title = 	 {{L}earning for {L}arger {D}atasets with the {G}aussian {P}rocess {L}atent {V}ariable {M}odel},
+author = {Lawrence, Neil},
 booktitle = 	 {Proceedings of the Eleventh International Conference on Artificial Intelligence and Statistics},
 pages = 	 {243--250},
 year = 	 {2007},
@@ -197,13 +185,11 @@ series = 	 {Proceedings of Machine Learning Research},
 address = 	 {San Juan, Puerto Rico},
 month = 	 {21--24 Mar},
 publisher =    {PMLR},
-pdf = 	 {http://proceedings.mlr.press/v2/lawrence07a/lawrence07a.pdf},
 url = 	 {http://proceedings.mlr.press/v2/lawrence07a.html},
-abstract = 	 {In this paper we apply the latest techniques in sparse Gaussian process regression (GPR) to the Gaussian process latent variable model (GPLVM). We review three techniques and discuss how they may be implemented in the context of the GP-LVM. Each approach is then implemented on a well known benchmark data set and compared with earlier attempts to sparsify the model.}
 }
 
 @InProceedings{DelbridgeBW20,
-title = 	 {Randomly Projected Additive {G}aussian Processes for Regression},
+title = 	 {{R}andomly {P}rojected {A}dditive {G}aussian {P}rocesses for {R}egression},
 author =       {Delbridge, Ian and Bindel, David and Wilson, Andrew Gordon},
 booktitle = 	 {Proceedings of the 37th International Conference on Machine Learning},
 pages = 	 {2453--2463},
@@ -213,13 +199,11 @@ volume = 	 {119},
 series = 	 {Proceedings of Machine Learning Research},
 month = 	 {13--18 Jul},
 publisher =    {PMLR},
-pdf = 	 {http://proceedings.mlr.press/v119/delbridge20a/delbridge20a.pdf},
 url = 	 {http://proceedings.mlr.press/v119/delbridge20a.html},
-abstract = 	 {Gaussian processes (GPs) provide flexible distributions over functions, with inductive biases controlled by a kernel. However, in many applications Gaussian processes can struggle with even moderate input dimensionality. Learning a low dimensional projection can help alleviate this curse of dimensionality, but introduces many trainable hyperparameters, which can be cumbersome, especially in the small data regime. We use additive sums of kernels for GP regression, where each kernel operates on a different random projection of its inputs. Surprisingly, we find that as the number of random projections increases, the predictive performance of this approach quickly converges to the performance of a kernel operating on the original full dimensional inputs, over a wide range of data sets, even if we are projecting into a single dimension. As a consequence, many problems can remarkably be reduced to one dimensional input spaces, without learning a transformation. We prove this convergence and its rate, and additionally propose a deterministic approach that converges more quickly than purely random projections. Moreover, we demonstrate our approach can achieve faster inference and improved predictive accuracy for high-dimensional inputs compared to kernels in the original input space.}
 }
 
 @book{Neal96,
-  title={Bayesian Learning for Neural Networks},
+  title={{B}ayesian {L}earning for {N}eural {N}etworks},
   author={Neal, R.M.},
   isbn={9780387947242},
   lccn={96022079},
@@ -231,22 +215,20 @@ abstract = 	 {Gaussian processes (GPs) provide flexible distributions over funct
 
 
 @article{LiC16,
-title = {A review on Gaussian Process Latent Variable Models},
+title = {{A} {R}eview on {G}aussian {P}rocess {L}atent {V}ariable {M}odels},
 journal = {CAAI Transactions on Intelligence Technology},
 volume = {1},
 number = {4},
 pages = {366-376},
 year = {2016},
 issn = {2468-2322},
-doi = {https://doi.org/10.1016/j.trit.2016.11.004},
-url = {https://www.sciencedirect.com/science/article/pii/S2468232216300828},
+url = {https://doi.org/10.1016/j.trit.2016.11.004},
 author = {Ping Li and Songcan Chen},
 keywords = {GPLVM, Non-parametric method, Gaussian process},
-abstract = {Gaussian Process Latent Variable Model (GPLVM), as a flexible bayesian non-parametric modeling method, has been extensively studied and applied in many learning tasks such as Intrusion Detection, Image Reconstruction, Facial Expression Recognition, Human pose estimation and so on. In this paper, we give a review and analysis for GPLVM and its extensions. Firstly, we formulate basic GPLVM and discuss its relation to Kernel Principal Components Analysis. Secondly, we summarize its improvements or variants and propose a taxonomy of GPLVM related models in terms of the various strategies that be used. Thirdly, we provide the detailed formulations of the main GPLVMs that extensively developed based on the strategies described in the paper. Finally, we further give some challenges in next researches of GPLVM.}
 }
 
 @article {LiuOSC20,
-Title = {When Gaussian Process Meets Big Data: A Review of Scalable GPs},
+Title = {When {G}aussian {P}rocess {M}eets {B}ig {D}ata: {A} {R}eview of {S}calable {GP}s},
 Author = {Liu, Haitao and Ong, Yew-Soon and Shen, Xiaobo and Cai, Jianfei},
 DOI = {10.1109/tnnls.2019.2957109},
 Number = {11},
@@ -256,12 +238,11 @@ Year = {2020},
 Journal = {IEEE transactions on neural networks and learning systems},
 ISSN = {2162-237X},
 Pages = {4405—4423},
-Abstract = {The vast quantity of information brought by big data as well as the evolving computer hardware encourages success stories in the machine learning community. In the meanwhile, it poses challenges for the Gaussian process regression (GPR), a well-known nonparametric, and interpretable Bayesian model, which suffers from cubic complexity to data size. To improve the scalability while retaining desirable prediction quality, a variety of scalable GPs have been presented. However, they have not yet been comprehensively reviewed and analyzed to be well understood by both academia and industry. The review of scalable GPs in the GP community is timely and important due to the explosion of data size. To this end, this article is devoted to reviewing state-of-the-art scalable GPs involving two main categories: global approximations that distillate the entire data and local approximations that divide the data for subspace learning. Particularly, for global approximations, we mainly focus on sparse approximations comprising prior approximations that modify the prior but perform exact inference, posterior approximations that retain exact prior but perform approximate inference, and structured sparse approximations that exploit specific structures in kernel matrix; for local approximations, we highlight the mixture/product of experts that conducts model averaging from multiple local experts to boost predictions. To present a complete review, recent advances for improving the scalability and capability of scalable GPs are reviewed. Finally, the extensions and open issues of scalable GPs in various scenarios are reviewed and discussed to inspire novel ideas for future research avenues.},
 URL = {https://doi.org/10.1109/TNNLS.2019.2957109},
 }
 
 @InProceedings{WilsonA13,
-  title = 	 {Gaussian Process Kernels for Pattern Discovery and Extrapolation},
+  title = 	 {{G}aussian {P}rocess {K}ernels for {P}attern {D}iscovery and {E}xtrapolation},
   author = 	 {Andrew Wilson and Ryan Adams},
   booktitle = 	 {Proceedings of the 30th International Conference on Machine Learning},
   pages = 	 {1067--1075},
@@ -273,13 +254,11 @@ URL = {https://doi.org/10.1109/TNNLS.2019.2957109},
   address = 	 {Atlanta, Georgia, USA},
   month = 	 {17--19 Jun},
   publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v28/wilson13.pdf},
   url = 	 {http://proceedings.mlr.press/v28/wilson13.html},
-  abstract = 	 {Gaussian processes are rich distributions over functions, which provide a Bayesian nonparametric approach to smoothing and interpolation.  We introduce simple closed form kernels that can be used with Gaussian processes to discover patterns and enable extrapolation.  These kernels are derived by modelling a spectral density – the Fourier transform of a kernel – with a Gaussian mixture.  The proposed kernels support a broad class of stationary covariances, but Gaussian process inference remains simple and analytic.  We demonstrate the proposed kernels by discovering patterns and performing long range extrapolation on synthetic examples, as well as atmospheric CO2 trends and airline passenger data.  We also show that it is possible to reconstruct several popular standard covariances within our framework.}
 }
 
 @inproceedings{LeeBNSPD18,
-title={Deep Neural Networks as Gaussian Processes},
+title={Deep {N}eural {N}etworks as {G}aussian {P}rocesses},
 author={Jaehoon Lee and Jascha Sohl-dickstein and Jeffrey Pennington and Roman Novak and Sam Schoenholz and Yasaman Bahri},
 booktitle={International Conference on Learning Representations},
 year={2018},
@@ -287,14 +266,14 @@ url={https://openreview.net/forum?id=B1EA-M-0Z},
 }
 
 @article{WilliamsR96,
-  title={Gaussian processes for regression},
+  title={{G}aussian {P}rocesses for {R}egression},
   author={Williams, Christopher KI and Rasmussen, Carl Edward},
   year={1996},
   publisher={MIT}
 }
 
 @book{RasmussenW06,
-  title={Gaussian Processes for Machine Learning},
+  title={{G}aussian {P}rocesses for {M}achine {L}earning},
   author={Rasmussen, C.E. and Williams, C.K.I. and M.I.T. Press and Bach, F. and ProQuest (Firm)},
   isbn={9780262182539},
   lccn={20050533},
@@ -305,7 +284,7 @@ url={https://openreview.net/forum?id=B1EA-M-0Z},
 }
 
 @InProceedings{BuiLLLT16,
-  title = 	 {Deep Gaussian Processes for Regression using Approximate Expectation Propagation},
+  title = 	 {{D}eep {G}aussian {P}rocesses for {R}egression using {A}pproximate {E}xpectation {P}ropagation},
   author = 	 {Thang Bui and Daniel Hernandez-Lobato and Jose Hernandez-Lobato and Yingzhen Li and Richard Turner},
   booktitle = 	 {Proceedings of The 33rd International Conference on Machine Learning},
   pages = 	 {1472--1481},
@@ -316,21 +295,17 @@ url={https://openreview.net/forum?id=B1EA-M-0Z},
   address = 	 {New York, New York, USA},
   month = 	 {20--22 Jun},
   publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v48/bui16.pdf},
   url = 	 {http://proceedings.mlr.press/v48/bui16.html},
-  abstract = 	 {Deep Gaussian processes (DGPs) are multi-layer hierarchical generalisations of Gaussian processes (GPs) and are formally equivalent to neural networks with multiple, infinitely wide hidden layers. DGPs are nonparametric probabilistic models and as such are arguably more flexible, have a greater capacity to generalise, and provide better calibrated uncertainty estimates than alternative deep models. This paper develops a new approximate Bayesian learning scheme that enables DGPs to be applied to a range of medium to large scale regression problems for the first time. The new method uses an approximate Expectation Propagation procedure and a novel and efficient extension of the probabilistic backpropagation algorithm for learning. We evaluate the new method for non-linear regression on eleven real-world datasets, showing that it always outperforms GP regression and is almost always better than state-of-the-art deterministic and sampling-based approximate inference methods for Bayesian neural networks. As a by-product, this work provides a comprehensive analysis of six approximate Bayesian methods for training neural networks.}
 }
 
 @inproceedings{LawrenceM07,
 author = {Lawrence, Neil D. and Moore, Andrew J.},
-title = {Hierarchical Gaussian Process Latent Variable Models},
+title = {{H}ierarchical {G}aussian {P}rocess {L}atent {V}ariable {M}odels},
 year = {2007},
 isbn = {9781595937933},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/1273496.1273557},
-doi = {10.1145/1273496.1273557},
-abstract = {The Gaussian process latent variable model (GP-LVM) is a powerful approach for probabilistic modelling of high dimensional data through dimensional reduction. In this paper we extend the GP-LVM through hierarchies. A hierarchical model (such as a tree) allows us to express conditional independencies in the data as well as the manifold structure. We first introduce Gaussian process hierarchies through a simple dynamical model, we then extend the approach to a more complex hierarchy which is applied to the visualisation of human motion data sets.},
 booktitle = {Proceedings of the 24th International Conference on Machine Learning},
 pages = {481–488},
 numpages = {8},
@@ -339,14 +314,14 @@ series = {ICML '07}
 }
 
 @article{DaiDGL15,
-  title={Variational auto-encoded deep Gaussian processes},
+  title={{V}ariational {A}uto-encoded {D}eep {G}aussian {P}rocesses},
   author={Dai, Zhenwen and Damianou, Andreas and Gonz{\'a}lez, Javier and Lawrence, Neil},
   journal={arXiv preprint arXiv:1511.06455},
   year={2015}
 }
 
 @article{HensmanL15,
-  title={Nested variational compression in deep Gaussian processes},
+  title={{N}ested {V}ariational {C}ompression in {D}eep {G}aussian {P}rocesses},
   author={Hensman, James and Lawrence, Neil D},
   journal={arXiv preprint arXiv:1412.1370},
   year={2014}
@@ -354,12 +329,10 @@ series = {ICML '07}
 
 @inproceedings{DamianouTL11,
 author = {Damianou, Andreas C. and Titsias, Michalis K. and Lawrence, Neil D.},
-title = {Variational Gaussian Process Dynamical Systems},
+title = {{V}ariational {G}aussian {P}rocess {D}ynamical {S}ystems},
 year = {2011},
 isbn = {9781618395993},
-publisher = {Curr?an Associates Inc.},
 address = {Red Hook, NY, USA},
-abstract = {High dimensional time series are endemic in applications of machine learning such as robotics (sensor data), computational biology (gene expression data), vision (video sequences) and graphics (motion capture data). Practical nonlinear probabilistic approaches to this data are required. In this paper we introduce the variational Gaussian process dynamical system. Our work builds on recent variational approximations for Gaussian process latent variable models to allow for nonlinear dimensionality reduction simultaneously with learning a dynamical prior in the latent space. The approach also allows for the appropriate dimensionality of the latent space to be automatically determined. We demonstrate the model on a human motion capture data set and a series of high resolution video sequences.},
 booktitle = {Proceedings of the 24th International Conference on Neural Information Processing Systems},
 pages = {2510–2518},
 numpages = {9},
@@ -368,7 +341,7 @@ series = {NIPS'11}
 }
 
 @book{Murphy12,
-  title={Machine Learning: A Probabilistic Perspective},
+  title={{M}achine {L}earning: {A} {P}robabilistic {P}erspective},
   author={Murphy, K.P.},
   isbn={9780262018029},
   lccn={2012004558},
@@ -431,4 +404,35 @@ series = {NIPS'11}
   publisher={Imperial College Press}
 }
 
+@article{HornikSW89,
+author = {Hornik, K. and Stinchcombe, M. and White, H.},
+title = {{M}ultilayer {F}eedforward {N}etworks {A}re {U}niversal {A}pproximators},
+year = {1989},
+issue_date = {1989},
+publisher = {Elsevier Science Ltd.},
+address = {GBR},
+volume = {2},
+number = {5},
+issn = {0893-6080},
+journal = {Neural Netw.},
+month = jul,
+pages = {359–366},
+numpages = {8}
+}
 
+@InProceedings{ChenFG14,
+  title = 	 {{S}tochastic {G}radient {H}amiltonian {M}onte {C}arlo},
+  author = 	 {Tianqi Chen and Emily Fox and Carlos Guestrin},
+  booktitle = 	 {Proceedings of the 31st International Conference on Machine Learning},
+  pages = 	 {1683--1691},
+  year = 	 {2014},
+  editor = 	 {Eric P. Xing and Tony Jebara},
+  volume = 	 {32},
+  number =       {2},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Bejing, China},
+  month = 	 {22--24 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v32/cheni14.pdf},
+  url = 	 {http://proceedings.mlr.press/v32/cheni14.html},
+}
